@@ -25,11 +25,6 @@
   (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
   (add-hook 'elpy-mode-hook 'flycheck-mode))
 
-;; enable autopep8 formatting when save a file
-;; (require 'py-autopep8)
-;; (add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
-
-
 ;; INSTRUCTIONS
 ;; Every time we open a python-project, I have to set up the virtual-env
 ;; either with pyvenv-activate or with pyvenv-workon

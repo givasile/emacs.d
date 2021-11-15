@@ -17,8 +17,15 @@
 ;; allow for updating mail using 'U' in the main view:
 (setq mu4e-get-mail-command "offlineimap")
 
+;; give me ISO(ish) format date-time stamps in the header list
+(setq mu4e-headers-date-format "%Y-%m-%d %H:%M")
 
-
+;; set the header fields and the column-width they span
+(setq mu4e-headers-fields '((:human-date . 18)
+                            ;; (:flags . 6)
+                            (:mailing-list . 10)
+                            (:from . 22)
+                            (:subject)))
 
 
 ;; sending mail -- replace USERNAME with your gmail username

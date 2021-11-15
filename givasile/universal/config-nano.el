@@ -15,11 +15,11 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program. If not, see <http://www.gnu.org/licenses/>.
 ;; ---------------------------------------------------------------------
-(package-initialize)
+;; (package-initialize)
 
 
 ;; Path to nano emacs modules (mandatory)
-(add-to-list 'load-path "~/.emacs.d/straight/repos/nano-emacs")
+;; (add-to-list 'load-path "~/.emacs.d/straight/repos/nano-emacs")
 
 ;; ;; Default layout (optional)
 ;; (require 'nano-layout)
@@ -52,7 +52,7 @@
 ;;     (load custom-file)))
 
 ;; Theme
-(require 'nano-faces)
+;; (require 'nano-faces)
 ;; (nano-faces)
 
 ;; (require 'nano-theme)
@@ -94,4 +94,4 @@
 ;; (require 'nano-mu4e)
 ;; (require 'nano-agenda)
 
-(provide 'nano)
+;; (provide 'nano)

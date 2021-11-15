@@ -15,7 +15,7 @@
     calfw    ;; calendar view
     calfw-org        ;;
     org-super-agenda ;; better-view of the typical agenda
-    material-theme   ;; nano related - add the material theme
+    nord-theme ;; nice-theme https://github.com/arcticicestudio/nord-emacs
     ))
 
 ;; python packages
@@ -24,6 +24,7 @@
     ein
     elpy
     py-autopep8
+    sphinx-doc
     ))
 
 ;; latex packages
@@ -32,8 +33,16 @@
     auctex ;; writing and formatting tex documents
     ))
 
+;; latex packages
+(defvar orgmodePackages
+  '(
+    nano-agenda ;;
+    nano-theme ;;
+    ))
+
+
 ;; concatenate all packages to a list
-(setq allPackages (append generalPackages pythonPackages latexPackages))
+(setq allPackages (append generalPackages pythonPackages latexPackages orgmodePackages))
 
 ;; install each package only if not installed already
 (mapc #'(lambda (package)

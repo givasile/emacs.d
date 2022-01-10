@@ -57,3 +57,8 @@ site-lisp/package/
 /projects
 /straight/
 /elpy/
+/org-gcal/
+/persist/
+/request/
+.org-generic-id-locations
+./givasile/dependent_on_local_pc/*

@@ -55,13 +55,9 @@ site-lisp/package/
 /smex-items
 /eln-cache/
 /straight/
-<<<<<<< HEAD
-/elpy/
-=======
 /elpy/
 /org-gcal/
 /persist/
 /request/
 .org-generic-id-locations
-./givasile/dependent_on_local_pc/*
->>>>>>> b77c3b1... removed sensitive info
+givasile/dependent_on_local_pc/*

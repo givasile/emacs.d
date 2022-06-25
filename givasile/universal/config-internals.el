@@ -9,7 +9,7 @@
 
 ;; SET FONT
 ;; --------------------------------------
-(set-frame-font "Firacode-13")
+(set-frame-font "Inconsolata-14" nil t)
 
 ;; CUSTOM-KEY BINDINGS
 ;; --------------------------------------

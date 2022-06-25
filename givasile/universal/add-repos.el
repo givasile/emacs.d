@@ -5,7 +5,7 @@
              '("melpa" . "http://melpa.org/packages/") t)
 
 ;; initialize them all
-(package-initialize)
+;; (package-initialize)
 
 ;; check that package content is set
 (when (not package-archive-contents)

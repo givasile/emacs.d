@@ -7,6 +7,11 @@
 (setq show-paren-style 'mixed) ;; highlight brackets if visible, else entire expression
 (electric-pair-mode 1) ;; insert closing bracket, when opening one
 
+
+;; SET COLORTHEME
+;; --------------------------------------
+(load-theme 'nord t)
+
 ;; SET FONT
 ;; --------------------------------------
 (set-frame-font "Inconsolata-14" nil t)

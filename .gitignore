@@ -60,4 +60,4 @@ site-lisp/package/
 /persist/
 /request/
 .org-generic-id-locations
-givasile/dependent_on_local_pc/*
+/givasile/dependent_on_local_pc/*

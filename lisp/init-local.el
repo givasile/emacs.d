@@ -15,7 +15,6 @@
 ;; ;; loads remote packages (through package manager)
 (load "~/.emacs.d/givasile/universal/add-remote-packages.el")
 
-
 ;; run cofiguration for python - ELPy dependent configurations
 (load "~/.emacs.d/givasile/universal/config-python.el") ;; configs python
 
@@ -33,13 +32,18 @@
 ;; ___________________________________________________________
 
 ;; loads packages downloaded manualy
-(load "~/.emacs.d/givasile/dependent_on_local_pc/add-local-packages.el")
+(when (file-exists-p "~/.emacs.d/givasile/dependent_on_local_pc/add-local-packages.el")
+  (load "~/.emacs.d/givasile/dependent_on_local_pc/add-local-packages.el"))
 
-;; run configuration for org-mode
-(load "~/.emacs.d/givasile/dependent_on_local_pc/config-org.el") ;; configs org-mode
+(when (file-exists-p "~/.emacs.d/givasile/dependent_on_local_pc/config-internals.el")
+  (load "~/.emacs.d/givasile/dependent_on_local_pc/config-internals.el"))
+
+(when (file-exists-p "~/.emacs.d/givasile/dependent_on_local_pc/config-org.el")
+  (load "~/.emacs.d/givasile/dependent_on_local_pc/config-org.el"))
 
 ;; run configuration for mu4e
-(load "~/.emacs.d/givasile/dependent_on_local_pc/config-mu4e.el") ;; configs org-mode
+(when (file-exists-p "~/.emacs.d/givasile/dependent_on_local_pc/config-mu4e.el")
+  (load "~/.emacs.d/givasile/dependent_on_local_pc/config-mu4e.el"))
 
 
 (provide 'init-local)

@@ -14,7 +14,7 @@
 
 ;; SET FONT
 ;; --------------------------------------
-(set-frame-font "Inconsolata-14" nil t)
+(set-frame-font "Iosevka-14" nil t)
 
 ;; CUSTOM-KEY BINDINGS
 ;; --------------------------------------

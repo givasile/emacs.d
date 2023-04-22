@@ -27,6 +27,8 @@
 ;; ;; run configuration for nano-emacs (https://github.com/rougier/nano-emacs)
 ;; (load "~/.emacs.d/givasile/universal/config-nano.el")
 
+;; run configuration for copilot
+(load "~/.emacs.d/givasile/universal/config-copilot.el") ;; configs copilot
 
 ;; configuration dependent on local configuration
 ;; ___________________________________________________________

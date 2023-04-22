@@ -75,3 +75,9 @@
 
 (straight-use-package
  '(mu4e-dashboard :type git :host github :repo "rougier/mu4e-dashboard"))
+
+;; install copilot
+(use-package copilot
+  :straight (:host github :repo "zerolfx/copilot.el" :files ("dist" "*.el"))
+  :ensure t)
+;; you can utilize :map :hook and :config to customize copilot

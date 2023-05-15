@@ -12,8 +12,6 @@
     csv-mode      ;; edit csv from emacs
     impatient-mode ;; live-preview of html in the browser (built on top of simple-httpd)
     flycheck ;; on-the-fly checker (uses many backends, depending on the language)
-    calfw    ;; calendar view
-    calfw-org        ;;
     org-super-agenda ;; better-view of the typical agenda
     nord-theme ;; nice-theme https://github.com/arcticicestudio/nord-emacs
     ))
@@ -21,7 +19,7 @@
 ;; python packages
 (defvar pythonPackages
   '(better-defaults 
-    ein
+    ;; ein
     elpy
     py-autopep8
     sphinx-doc

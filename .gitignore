@@ -55,6 +55,13 @@ site-lisp/package/
 /.lsp-session-v1
 /smex-items
 /eln-cache/
+/straight/
+/elpy/
+/org-gcal/
+/persist/
+/request/
+.org-generic-id-locations
+# /givasile/dependent_on_local_pc/*
 /projects
 /forge-*.sqlite
 /projectile.cache

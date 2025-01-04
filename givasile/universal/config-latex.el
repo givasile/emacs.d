@@ -8,16 +8,6 @@
 (setq reftex-plug-into-AUCTeX t) ; make it work with auctex
 (setq reftex-cite-format 'natbib)
 
-;; (load "preview-latex.el" nil t t) ; automatically load preview latex
-
-;; make $ to automatically insert inline math symbols "\( \)"
-(add-hook 'plain-TeX-mode-hook
-          (lambda () (set (make-local-variable 'TeX-electric-math)
-                          (cons "$" "$"))))
-(add-hook 'LaTeX-mode-hook
-          (lambda () (set (make-local-variable 'TeX-electric-math)
-                          (cons "\\(" "\\)"))))
-
 ;; MARKDOWN configuration
 (use-package markdown-mode
   :ensure t ;; ensure already installed, otherwise do it

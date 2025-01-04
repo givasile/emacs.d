@@ -17,6 +17,7 @@ CVS
 cookies
 /newsticker
 \#*
+/tree-sitter
 /elpa
 /elpa-*
 site-lisp/package/
@@ -61,3 +62,6 @@ site-lisp/package/
 /request/
 .org-generic-id-locations
 # /givasile/dependent_on_local_pc/*
+/projects
+/forge-*.sqlite
+/projectile.cache

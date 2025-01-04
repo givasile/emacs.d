@@ -1,4 +1,4 @@
-;; PYTHON CONFIGURATION
+;;; package --- Install all python dependent packages
 ;; --------------------------------------
 
 ;; set the rpc (= background process elpy runs for code inspection/completion etc)
@@ -36,3 +36,9 @@
 
 ;; It is good to set the project root with M-x elpy-set-project-root
 ;; for finding all files inside the project
+
+;; set the project root to nil, so that elpy uses the current directory
+(setq elpy-shell-starting-directory 'current-directory)
+(provide 'config-python)
+;;; config-python.el ends here
+

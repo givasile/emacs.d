@@ -68,12 +68,6 @@
 (straight-use-package
  '(nano-emacs :type git :host github :repo "rougier/nano-emacs"))
 
-(straight-use-package
- '(mu4e-thread-folding :type git :host github :repo "rougier/mu4e-thread-folding"))
-
-(straight-use-package
- '(mu4e-dashboard :type git :host github :repo "rougier/mu4e-dashboard"))
-
 ;; install copilot
 (use-package copilot
   :straight (:host github :repo "zerolfx/copilot.el" :files ("dist" "*.el"))

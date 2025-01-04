@@ -1,3 +1,4 @@
+;;; package --- Summary
 (require 'package)
 
 ;; add melpa repo

@@ -73,3 +73,6 @@
   :straight (:host github :repo "zerolfx/copilot.el" :files ("dist" "*.el"))
   :ensure t)
 ;; you can utilize :map :hook and :config to customize copilot
+
+;; install gptel
+(straight-use-package 'gptel)

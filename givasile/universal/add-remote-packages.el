@@ -38,9 +38,13 @@
     nano-theme ;;
     ))
 
-
 ;; concatenate all packages to a list
-(setq allPackages (append generalPackages pythonPackages latexPackages orgmodePackages))
+(setq allPackages (append generalPackages
+                          pythonPackages
+                          latexPackages
+                          orgmodePackages
+                          ;; add more packages here))
+                          ))
 
 ;; install each package only if not installed already
 (mapc #'(lambda (package)
@@ -74,5 +78,10 @@
   :ensure t)
 ;; you can utilize :map :hook and :config to customize copilot
 
-;; install gptel
-(straight-use-package 'gptel)
+;; ;; install gptel
+;; (straight-use-package 'gptel)
+
+;; ;; install ess
+;; (use-package ess
+;;   :ensure t)
+
